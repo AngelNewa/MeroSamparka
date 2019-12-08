@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void validate(String userName, String userPassword) {
 
-        if ((userName == "admin") && (userPassword == "admin")) {
+        if ((userName.equals("admin")) && (userPassword.equals("admin"))) {
             Intent intent = new Intent(LoginActivity.this, Dashboard.class);
             startActivity(intent);
         } else {
