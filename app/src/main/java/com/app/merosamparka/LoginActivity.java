@@ -14,7 +14,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText Password;
     private TextView Info;
     private Button Login;
-    private int counter = 5;
+    private int counter = 8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
